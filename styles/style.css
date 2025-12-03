@@ -1,0 +1,42 @@
+:root {
+    --eyebrow-color: #888;
+}
+
+
+body {
+    font-family: 'Montserrat-Regular';
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'PlayfairDisplay-Bold';
+    color: #000;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #fff;
+}
+
+.header__logo-link{
+    padding-top: 60px;
+}
+
+.header__subtitle-content{
+    max-width: 650px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.67;
+    padding-bottom: 70px;
+}
+
+.hero{
+    background: url(/images/under-header/background-header.png);
+}

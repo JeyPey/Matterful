@@ -25,11 +25,11 @@ h5 {
     background-color: #fff;
 }
 
-.header__logo-link{
+.header__logo-link {
     padding-top: 60px;
 }
 
-.header__subtitle-content{
+.header__subtitle-content {
     max-width: 650px;
     text-align: center;
     margin: 0 auto;
@@ -37,6 +37,85 @@ h5 {
     padding-bottom: 70px;
 }
 
-.hero{
+.hero {
     background: url(/images/under-header/background-header.png);
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero__info {
+    padding-left: 50px;
+}
+
+
+.hero__eyebrow {
+    font-family: 'Montserrat-Bold';
+    text-transform: uppercase;
+    color: var(--eyebrow-color);
+}
+
+.hero__title {
+    margin: 0 auto;
+    font-size: 36px;
+}
+
+.hero__subtitle {
+    width: 470px;
+}
+
+.cases {
+    background-color: #F4F4F4;
+}
+
+.cases__title {
+    padding-top: 35px;
+    text-align: center;
+}
+
+.cases__container {
+    padding-inline: 360px;
+    padding-block: 15px;
+}
+
+.cases__part {
+    display: flex;
+    justify-content: flex-end;
+    /* Твій робочий варіант для притискання вправо */
+    width: 100%;
+}
+
+.cases__card {
+    background-color: #FFFFFF;
+    border-radius: 0 0 8px 8px;
+    width: 60%;
+    max-width: 670px;
+}
+
+.cases-card__img {
+    display: block;
+    height: auto;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.cases-card__content {
+    text-align: center;
+    padding: 30px 30px 50px 30px;
+}
+
+.cases-card__uptitle {
+    font-family: 'Montserrat-Bold';
+    text-transform: uppercase;
+    color: var(--eyebrow-color);
+}
+
+.cases-card__text {
+    max-width: 450px;
+    margin-inline: auto;
+    text-align: center;
+    line-height: 150%;
 }
